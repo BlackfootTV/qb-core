@@ -8,9 +8,9 @@ local Translations = {
         company_too_poor = 'Votre entreprise n\'a pas suffisamment d\'argent',
         item_not_exist = 'L\'objet n\'existe pas',
         too_heavy = 'L\'inventaire est plein',
-        duplicate_license = 'License Rockstar Dupliquée trouvée',
+        duplicate_license = 'License Rockstar dupliquée trouvée',
         no_valid_license  = 'Aucune License Rockstar trouvée',
-        not_whitelisted = "Vous n'êtes pas whitelist sur ce serveur"
+        not_whitelisted = 'Vous n\'êtes pas sur la "whitelist" de ce serveur'
     },
     success = {},
     info = {
@@ -22,11 +22,11 @@ local Translations = {
         checking_ban = 'Bonjour %s. Nous verifions si vous êtes banni.',
         validatin_license = 'bonjour %s. Nous validons votre License Rockstar.',
         join_server = 'Bienvenue %s sur {Server Name}.',
-        checking_whitelisted = 'Bonjour %s. Nous vérifions si vous êtes Whitelist.'
+        checking_whitelisted = 'Bonjour %s. Nous vérifions si vous êtes sur la "whitelist".'
     }
 }
 
 Lang = Locale:new({
     phrases = Translations,
     warnOnMissing = true
-}) 
+})
